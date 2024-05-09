@@ -10,15 +10,15 @@ export default {
   }, //don't change anything from Here
   NODES: [
     {
-      name: "141.95.90.1",
-      url: "lava.link:88",
-      auth: "youshallnotpass",
+      name: "Sub2UNKNOWNPHV",
+      url: "lava.link:80",
+      auth: "kronix",
       secure: false,
     },
     {
-      name: "node3.garvv.me",
-      url: "lava.link:1102",
-      auth: "incolnx.com",
+      name: "MyColdMusic",
+      url: "lava.link:80",
+      auth: "kronix",
       secure: false,
     },
   ],
