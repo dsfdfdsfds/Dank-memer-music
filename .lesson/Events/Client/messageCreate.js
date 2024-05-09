@@ -8,7 +8,7 @@ import {
 import Config from "../../config.js";
 import ServerSchema from "../../Models/ServerData.js";
 // webhook url insert here
-const webHookurl = "https://discord.com/api/webhooks/1173227356316520478/NJZlWO1dKv5akQRMvj7x8qoCR01TZMSQt9Uf0C8jsN1WKD2foTpAuLkrXzP_OETJte0h";
+const webHookurl = "https://discord.com/api/webhooks/1238151849744535672/gsVOsk-rA1ahivgWtqZu9WcSPSQUtUIdRDFEKsSPEg7-ENyULS_oNQITxwxSB8gQgtPi";
 import { WebhookClient } from "discord.js";
 const hook = new WebhookClient({ url: webHookurl });
 
@@ -99,7 +99,7 @@ export default async (client, message) => {
         }),
       })
       .setDescription(
-        `Thanks For Adding **NUTZ**, the best Quality Music Bot\n**• Guild Prefix**\n\`${prefix}\`\n**• Help Menu**\n\`${prefix}help\``
+        `Thanks For Adding **Dank Memer Music**, the best Quality Music Bot\n**• Guild Prefix**\n\`${prefix}\`\n**• Help Menu**\n\`${prefix}help\``
       )
       .setColor('ff0000')
       .setThumbnail(
@@ -111,7 +111,7 @@ export default async (client, message) => {
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
         .setLabel("Support Server")
-        .setURL("https://discord.com/invite/VcRh6wmMYM")
+        .setURL("https://dsc.gg/iron-web10")
         .setStyle(client.Buttons.link),
 
       new ButtonBuilder()

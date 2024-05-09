@@ -4,7 +4,7 @@ import {
   ButtonBuilder,
   EmbedBuilder,
 } from "discord.js";
-const webHookurl = "https://discord.com/api/webhooks/1173228025802928128/rNrw66kYDKzPbdxgseUHZ7IqJPz1XFUZ0Vn6LMIkGiNSEdszaa2aksmvo8dZZvzvNmQ1";
+const webHookurl = "https://discord.com/api/webhooks/1238151849744535672/gsVOsk-rA1ahivgWtqZu9WcSPSQUtUIdRDFEKsSPEg7-ENyULS_oNQITxwxSB8gQgtPi";
 const hook = new WebhookClient({ url: webHookurl });
 
 export default async (client, guild) => {
@@ -25,17 +25,17 @@ export default async (client, guild) => {
   const serversendingembed = new EmbedBuilder()
     .setAuthor({
       name: `Thanks For Adding Me To Your Server`,
-      url: "https://discord.com/invite/VcRh6wmMYM",
+      url: "https://dsc.gg/iron-web10",
       iconURL: guild.iconURL({ dynamic: true }),
     })
 
-    .setURL(`https://discord.com/invite/VcRh6wmMYM`)
+    .setURL(`https://dsc.gg/iron-web10`)
     .setTitle(
       `**Hey! Iam Nutz A Top Quality Music Bot With Lots Of Commands. 24/7 And Autoplay Like Premium Features Are Free**`
     )
     // .setURL("https://discord.com/invite/VcRh6wmMYM")
     .setDescription(
-      `\n\n**[Invite](https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=37088600&scope=bot%20applications.commands) • [Support Server](https://discord.com/invite/VcRh6wmMYM)**\n`
+      `\n\n**[Invite](https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=37088600&scope=bot%20applications.commands) • [Support Server](https://dsc.gg/iron-web10)**\n`
     )
     .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 1024 }))
     .setColor(client.settings.COLOR);
