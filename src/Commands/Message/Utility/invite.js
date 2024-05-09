@@ -5,7 +5,7 @@ export default{
   aliases: ["add", "inv"],
   category:'Utility',
   permission: "",
-  desc: "Get Invite Of ColdMusic!",
+  desc: "Get Invite Of Dank Memer Music!",
   options : {
     owner:false,
     inVc: false,
@@ -27,7 +27,7 @@ export default{
         new EmbedBuilder()
         .setColor(client.settings.COLOR)
           .setTitle("Here Is The Invite Link")
-          .setDescription("Thanks For Choosing Cold Music!"),],
+          .setDescription("Thanks For Choosing Dank Memer Music Music!"),],
       components: [
         new ActionRowBuilder().addComponents(
           new ButtonBuilder()

@@ -6,7 +6,7 @@ export default {
   aliases: ["up"],
   category: "Utility",
   permission: "",
-  desc: "Uptime Of Cold!",
+  desc: "Uptime Of Dank Memer Music!",
   options : {
     owner:false,
     inVc: false,
@@ -26,9 +26,9 @@ export default {
     const duration1 = Math.round((Date.now() - message.client.uptime) / 1000);
     const embed = new EmbedBuilder();
     embed.setColor(client.settings.COLOR);
-    embed.setTitle("Uptime Of Cold Music");  
+    embed.setTitle("Uptime Of Dank Memer Music");  
     embed.setThumbnail(client.user.displayAvatarURL());
-    embed.setDescription(`**Cold Was Launched** <t:${duration1}:R>`);
+    embed.setDescription(`**Dank Memer Music Was Launched** <t:${duration1}:R>`);
     message.channel.send({ embeds: [embed] });
   },
 };

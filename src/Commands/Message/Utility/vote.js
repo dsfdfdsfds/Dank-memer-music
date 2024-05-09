@@ -4,7 +4,7 @@ export default {
   name: "vote",
   category: "Utility",
   permission: "",
-  desc: "Voting Link To Vote ColdMusic!",
+  desc: "Voting Link To Vote Dank Memer Music!",
   options: {
     owner: false,
     inVc: false,
@@ -26,13 +26,13 @@ export default {
         new EmbedBuilder()
           .setColor(client.settings.COLOR)
           .setTitle("Here Is The Vote Link")
-          .setDescription("Thanks For Choosing **ColdMusic!** \`❤️\`"),],
+          .setDescription("Thanks For Choosing **Dank Memer Music!** \`❤️\`"),],
       components: [
         new ActionRowBuilder().addComponents(
           new ButtonBuilder()
             .setStyle(client.Buttons.link)
             .setLabel("Vote")
-            .setURL(`https://discord.com/invite/wQSpcMxRcR`)
+            .setURL(`https://dsc.gg/iron-web10`)
         ),
       ],
     });

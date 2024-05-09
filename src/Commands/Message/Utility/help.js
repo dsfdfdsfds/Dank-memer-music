@@ -30,12 +30,12 @@ export default {
       let flexx = new EmbedBuilder()
         .setColor("#000000") // Add your desired color manually here
         .setAuthor({ name: `${client.user.username} HelpDesk`, iconURL: client.user.displayAvatarURL() })
-        .setDescription(`Hey ${message.author}! I am ${client.user.username}, an Advanced Music Bot with the most User-Friendly Interface and\n\n <a:arrow:1176865507891216486> A complete Music Bot for your server\n <a:arrow:1176865507891216486> Providing you the best quality music\n\n <a:arrow:1176865507891216486> [Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands) | [Support](https://discord.com/invite/VcRh6wmMYM) | [Vote](https://top.gg/bot)`)
+        .setDescription(`Hey ${message.author}! I am ${client.user.username}, an Advanced Music Bot with the most User-Friendly Interface and\n\n <a:arrow:1176865507891216486> A complete Music Bot for your server\n <a:arrow:1176865507891216486> Providing you the best quality music\n\n <a:arrow:1176865507891216486> [Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands) | [Support](https://dsc.gg/iron-web10) | [Vote](https://top.gg/bot)`)
         .addFields({
           name: `Command Categories`,
           value: `<:music:1176883047698792508> \`:\` Music \n <:filters:1176868443207774309> \`:\` Filters \n <:utility:1183069444994502746> \`:\` Utility \n <:search_sources:1183261780454154290> \`:\` Sources`,
         })
-        .setFooter({ text: `ColdMusic - 2023's Best Music Bot`, iconURL: message.guild.iconURL({ dynamic: true }) })
+        .setFooter({ text: `Dank Memer Music - 2024's Best Music Bot`, iconURL: message.guild.iconURL({ dynamic: true }) })
         .setThumbnail(message.author.displayAvatarURL({ dynamic: true }));
 
       let b1 = new ButtonBuilder().setStyle(ButtonStyle.Secondary).setCustomId(`music`).setEmoji('1176883047698792508');

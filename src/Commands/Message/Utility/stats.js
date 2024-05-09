@@ -6,7 +6,7 @@ const packageJSON = JSON.parse(fs.readFileSync("./package.json", "utf8"));
 export default {
   name: "stats",
   aliases: ["st"],
-  desc: "Cold Stats!",
+  desc: "Dank Memer Music Stats!",
   category: "Utility",
   options : {
     owner:false,

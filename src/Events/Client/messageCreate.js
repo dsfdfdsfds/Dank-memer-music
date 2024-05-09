@@ -98,7 +98,7 @@ export default async (client, message) => {
 Type \`-help\` to get all commands help menu.`
       )
       .setColor('1e5eb9')
-		  .setFooter({ text: `Thanks For Choosing Cold!`, iconURL: message.author.displayAvatarURL({ dynamic: true })})
+		  .setFooter({ text: `Thanks For Choosing Dank Memer Music!`, iconURL: message.author.displayAvatarURL({ dynamic: true })})
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
         .setLabel("Support Server")
@@ -275,7 +275,7 @@ Type \`-help\` to get all commands help menu.`
     ) {
       const embed = new EmbedBuilder()
         .setColor(Color)
-        .setDescription(`**Cold Is Not Playing Anything Right Now!**`);
+        .setDescription(`**Dank Memer Music Is Not Playing Anything Right Now!**`);
       return message.channel.send({ embeds: [embed] });
     }
     if (
@@ -286,7 +286,7 @@ Type \`-help\` to get all commands help menu.`
     ) {
       const embed = new EmbedBuilder()
         .setColor(Color)
-        .setDescription(`**Cold Is Not Playing Anything Right Now!**`);
+        .setDescription(`**Dank Memer Music Is Not Playing Anything Right Now!**`);
       return message.channel.send({ embeds: [embed] });
     }
     if (command.options.vote) {
@@ -295,7 +295,7 @@ Type \`-help\` to get all commands help menu.`
         const embed = new EmbedBuilder()
           .setColor(Color)
           .setDescription(
-            `You Need To Vote For Cold On Top.gg To Run This Command!`
+            `You Need To Vote For Dank Memer Music On Top.gg To Run This Command!`
           );
 
         const row = new ActionRowBuilder().addComponents(
@@ -319,7 +319,7 @@ Type \`-help\` to get all commands help menu.`
           iconURL: client.user.avatarURL({ dynamic: true }),
         })
         .setDescription(
-          `**Looks Like You Found A Premium Command!** This Command Is Valid For Premium Servers Only! Buy Premium By Joining [Support Server](https://discord.gg/wQSpcMxRcR) <:cold_prime:1171997414329163828> `
+          `**Looks Like You Found A Premium Command!** This Command Is Valid For Premium Servers Only! Buy Premium By Joining [Support Server](https://dsc.gg/iron-web10) <:cold_prime:1171997414329163828> `
         )
         .setThumbnail(message.author.displayAvatarURL({ dynamic: true }));
       const row = new ActionRowBuilder().addComponents(

@@ -34,7 +34,7 @@ export default async (client, oldState, newState) => {
           if (channel) {
             const embed = new EmbedBuilder()
               .setColor(client.settings.COLOR)
-              .setAuthor({name:`Cold`, iconURL:client.user.displayAvatarURL()})
+              .setAuthor({name:`Dank Memer Music`, iconURL:client.user.displayAvatarURL()})
               .setDescription(`I Left The Voice Channel. Because No One Was Listening Music With me. Enabled **247** Mode To Keep Me In VC.`
               );
             await channel.send({ embeds: [ embed ] })

@@ -31,7 +31,7 @@ export default async (client, guild) => {
 
     .setURL(`https://discord.gg/wQSpcMxRcR`)
     .setTitle(
-      `**Hey! Myself Cold Music A Top Quality Music Bot With Lots Of Commands. 24/7 And Autoplay Like Premium Features Are Free**`
+      `**Hey! Myself Dank Memer Music Music A Top Quality Music Bot With Lots Of Commands. 24/7 And Autoplay Like Premium Features Are Free**`
     )
     // .setURL("https://discord.gg/wQSpcMxRcR")
     .setDescription(

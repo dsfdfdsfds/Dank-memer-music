@@ -78,15 +78,15 @@ export default class ColdClient extends Client {
     (this.helpMessages = [
       "You can buy premium by joining our support server and report bugs!",
       "By Typing <prefix>help <command> to get more info about a command",
-      "Run <prefix>invite to invite Cold to your server",
-      "You can use the command <prefix>vote to vote for Cold on Discord Bots list",
+      "Run <prefix>invite to invite Dank Memer Music to your server",
+      "You can use the command <prefix>vote to vote for Dank Memer Music on Discord Bots list",
       "Premium is cheap Just Boost our server [support server](https://discord.gg/wQSpcMxRcR) and report bugs!",
       "You can use the command <prefix>ping to check sia's ping",
-      "Cold Can Play Song In Sources Like SoundCloud, Spotify, Deezer, Youtube, NicoNico, And More!",
+      "Dank Memer Music Can Play Song In Sources Like SoundCloud, Spotify, Deezer, Youtube, NicoNico, And More!",
       "Premium System Has Been Merged With Guild And User",
-      "**Player Mode** Is Cold Exclusive Feature!",
+      "**Player Mode** Is Dank Memer Music Exclusive Feature!",
       "Moderation Commands Are Now Available!",
-      "[Xenin](https://discord.com/users/961930771344523264) is the **Developer** of Cold",
+      "[Xenin](https://discord.com/users/846370965994864651) is the **Developer** of Dank Memer Music",
     ]),
       (this.Nodes = Config.NODES);
     this.kazagumo = new Kazagumo(

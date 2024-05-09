@@ -22,7 +22,7 @@ export default {
    */
   run: async ({ message }) => {
     return message.reply({
-      content: "https://discord.com/invite/wQSpcMxRcR",
+      content: "https://dsc.gg/iron-web10",
     });
   },
 };

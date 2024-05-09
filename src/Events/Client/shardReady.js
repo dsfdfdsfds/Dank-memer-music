@@ -2,7 +2,7 @@
  * @param {import("../Struct/Client")} client
  */
 export default async (shardId) => {
-    console.log(`ColdMusic Spawnned Shard Id - ${shardId}`)
+    console.log(`Dank Memer Music Spawnned Shard Id - ${shardId}`)
 }
 
 
