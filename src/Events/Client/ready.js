@@ -66,9 +66,9 @@ export default async (client) => {
 
     setInterval(() => {
       let statuses = [
-        { name: "-help", type: ActivityType.Listening, details: "The Phone online" },
-        { name: "ColdMusic", type: ActivityType.Playing },
-        { name: "Music", type: ActivityType.Streaming, url: "https://twitch.tv/phv08" },
+        { name: "+help", type: ActivityType.Listening, details: "The Phone online" },
+        { name: "By iron web10", type: ActivityType.Playing },
+        { name: "Discord", type: ActivityType.Streaming, url: "https://dsc.gg/iron-web10" },
       ];
 
       let status = statuses[Math.floor(Math.random() * statuses.length)];
