@@ -1,8 +1,8 @@
 export default {
   TOKEN: "ENV",
-  MONGO: "Mongo Token",
-  OWNER: ["Your ID", "961930771344523264"],
-  PREFIX: "Your Prefix",
+  MONGO: "mongodb+srv://bsl48g:mt1oy@cluster0.ombggir.mongodb.net/?retryWrites=true&w=majority",
+  OWNER: ["846370965994864651", "846370965994864651"],
+  PREFIX: "+",
   COLOR: "#1e5eb9",
   EMOJIS: {
     TICK: "<:logo:796811149217648640>",
